@@ -1,6 +1,9 @@
 ---
 import { buttonVariants } from '../components/ui/button'
 import { ModeToggle } from '../components/ui/ThemeToggle'
+import { LINKS } from '../lib/constants'
+
+const githubSite: string = import.meta.env.GITHUB_SITE
 ---
 
 <script is:inline>
@@ -31,7 +34,7 @@ import { ModeToggle } from '../components/ui/ThemeToggle'
     <div class="flex flex-1 items-center justify-end space-x-4">
       <nav class="flex items-center gap-2">
         <a
-          href="https://github.com/bue221"
+          href={LINKS.github}
           target="_blank"
           rel="noreferrer"
           class={buttonVariants({ variant: 'ghost' })}
