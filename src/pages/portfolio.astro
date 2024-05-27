@@ -43,7 +43,7 @@ const entries = await contentfulClient.getEntries<Project>({})
               subheading={entry?.fields?.description}
               imagePath={entry?.fields?.img?.fields?.file.url}
               altText={entry?.fields?.img?.fields.title}
-              class="w-full sm:w-auto"
+              class="w-full sm:w-5/12"
             />
           ))
         }
