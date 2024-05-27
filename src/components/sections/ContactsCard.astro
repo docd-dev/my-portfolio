@@ -1,6 +1,12 @@
 ---
 import Card from '../Card.astro'
-import { LINKS } from '../../lib/constants'
+import {
+  ACCOUNT_EMAIL,
+  CITY,
+  COUNTRY,
+  COUNTRY_FLAG,
+  LINKS,
+} from '../../lib/constants'
 ---
 
 <Card colSpan="md:col-span-1" rowSpan="md:row-span-4">
@@ -12,8 +18,8 @@ import { LINKS } from '../../lib/constants'
     </header>
     <address class="mt-4 flex flex-col">
       <h2 class="text-gray-500">Contact Details</h2>
-      <p>camiloplaza3@gmail.com</p>
-      <p>🇨🇴 Bogotá D.C, Colombia 🇨🇴</p>
+      <p>{ACCOUNT_EMAIL}</p>
+      <p>{COUNTRY_FLAG} {CITY}, {COUNTRY} {COUNTRY_FLAG}</p>
     </address>
     <div class="mt-4 flex w-fit flex-col">
       <h2 class="text-gray-500">Socials</h2>
@@ -25,7 +31,7 @@ import { LINKS } from '../../lib/constants'
           <a href={LINKS.github} target="_blank">Github</a>
         </li>
         <li>
-          <a href={LINKS.instagram} target="_blank">Instagram</a>
+          <a href={LINKS.x} target="_blank">X (formerly Twitter)</a>
         </li>
       </ul>
     </div>

@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import moment from 'moment-timezone'
+import { CITY, COUNTRY, COUNTRY_FLAG } from '@/lib/constants'
 
-const Timezone = ({ timezone }: any) => {
+type Props = {
+  timezone: string
+}
+
+const Timezone = ({ timezone }: Props) => {
   const [dateTime, setDateTime] = useState('')
 
   useEffect(() => {
@@ -16,7 +21,9 @@ const Timezone = ({ timezone }: any) => {
   return (
     <div>
       <p>{dateTime}</p>
-      <p className="text-sm text-gray-500">🇨🇴 Bogotá D.C, Colombia 🇨🇴</p>
+      <p className="text-sm text-gray-500">
+        {COUNTRY_FLAG} {CITY}, {COUNTRY} {COUNTRY_FLAG}
+      </p>
     </div>
   )
 }

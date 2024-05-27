@@ -6,9 +6,18 @@ export const loaderAnimation = [
   { easing: 'ease-out' },
 ]
 
+export const CITY = 'Surabaya'
+
+export const COUNTRY = 'Indonesia'
+
+export const COUNTRY_FLAG = '🇮🇩'
+
+export const ACCOUNT_EMAIL = 'dwiyulianto619@gmail.com'
+
 export const LINKS = {
   github: 'https://github.com/docd-dev',
   linkedin: 'https://www.linkedin.com/in/dwi-yulianto-515a9b167/',
+  x: 'https://x.com/docd_dev',
   mail: 'mailto:dwiyulianto619@gmail.com',
   discord: 'https://discordapp.com/users/163300027618295808',
 }
@@ -81,28 +90,28 @@ export const STUDIES = [
 
 export const EXPERIENCE = [
   {
-    company: 'Straico',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software Engineer',
-    start: '2021',
-    link: 'https://straico.com/',
+    company: 'Indev',
+    location: `${CITY}, ${COUNTRY}`,
+    position: 'Frontend Developer',
+    start: '2022',
+    link: 'https://indev.id/',
     end: 'Current',
     tasks: [
-      'Integration IA services with react and tailwind css',
-      'Development and build of DB with mongoDB',
+      'Creating and optimizing the user interface of web applications using Next JS, Tailwind and Typescript.',
+      'Converting UI/UX designs created using Figma into functional and responsive HTML, CSS, and JavaScript code.',
+      'Integrate APIs and backend services into the web application, ensuring seamless data flow between the server and the client side.',
     ],
   },
   {
-    company: 'Spot2',
-    location: 'Mexico City, Mexico',
-    position: 'Software Engineer',
-    link: 'https://spot2.mx/',
+    company: 'Goperasi',
+    location: `${CITY}, ${COUNTRY}`,
+    position: 'Fullstack Developer',
+    link: 'https://goperasi.id/',
     start: '2021',
-    end: 'Current',
+    end: '2023',
     tasks: [
-      'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-      'Development map with the use of Google Maps API',
-      'Development internal platform with the use of React, Redux, and Material UI',
+      'Developing an B2B application with React, Tailwind and TypeScript',
+      'Developed and optimized an application using Prisma ORM for seamless data management and integration between the frontend and backend.',
       'Testing and debugging',
     ],
   },
@@ -130,29 +139,6 @@ export const EXPERIENCE = [
       'Use of SCRUM methodology',
       'Claro projects with the use of frameworks and libraries such as react and angular',
       'Use of redux toolkit as aproposal which allowed a shorter development time when using this tool',
-    ],
-  },
-  {
-    company: 'S I G',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software developer',
-    start: '2021',
-    end: '2021',
-    tasks: [
-      'Development of a dashboard with react admin and chartjs for managing and entering information',
-    ],
-  },
-  {
-    company: 'BOOKII',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software developer',
-    start: '2019',
-    end: '2021',
-    tasks: [
-      'Productive collaborationwiththebackendteamforthecreationofthe conversationalclubs',
-      'Effective coding of conversational clubs following design guide lines and using the Redux statemanager',
-      'Creation of the Bookii page in Spanish and change of texts in cms',
-      'Generation of static posts using Gatsby and the Contentful cms for the Bookii blog',
     ],
   },
 ]
