@@ -57,34 +57,28 @@ export const SEARCH: Page = {
 // Study Page
 export const STUDIES = [
   {
-    title: 'Computer Science',
-    institution: 'Universidad Central',
-    link: 'https://www.ucentral.edu.co/',
-    date: '2019 - 2027',
+    title: 'Software Engineer',
+    institution: 'SMKN 2 Surabaya',
+    link: 'https://smkn2sby.sch.id/',
+    date: '2012 - 2015',
   },
   {
     title: '...',
-    institution: 'Platzi',
-    link: 'https://platzi.com/',
-    date: '2018 - 2022',
+    institution: 'BuildWithAngga',
+    link: 'https://buildwithangga.com/',
+    date: '2021 - Current',
   },
   {
     title: '...',
     institution: 'Udemy',
     link: 'https://www.udemy.com/',
-    date: '2018 - 2022',
+    date: '2022 - Current',
   },
   {
     title: '...',
     institution: 'Youtube',
     link: 'https://www.youtube.com/@midulive',
-    date: '2018 - 2022',
-  },
-  {
-    title: 'Tattoo Artist',
-    institution: 'Tattoo Academy',
-    link: 'https://www.instagram.com/tattoodcacademy/',
-    date: '2024 - 2025',
+    date: '2020 - Current',
   },
 ]
 
