@@ -58,7 +58,7 @@ export const SEARCH: Page = {
 export const STUDIES = [
   {
     title: 'Software Engineer',
-    institution: 'SMKN 2 Surabaya',
+    institution: 'SMKN 2',
     link: 'https://smkn2sby.sch.id/',
     date: '2012 - 2015',
   },
