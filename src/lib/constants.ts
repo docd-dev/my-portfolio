@@ -12,13 +12,13 @@ export const COUNTRY = 'Indonesia'
 
 export const COUNTRY_FLAG = '🇮🇩'
 
-export const ACCOUNT_EMAIL = 'dwiyulianto619@gmail.com'
+export const ACCOUNT_EMAIL = 'docd.dev@gmail.com'
 
 export const LINKS = {
   github: 'https://github.com/docd-dev',
   linkedin: 'https://www.linkedin.com/in/dwi-yulianto-515a9b167/',
   x: 'https://x.com/docd_dev',
-  mail: 'mailto:dwiyulianto619@gmail.com',
+  mail: 'mailto:docd.dev@gmail.com',
   discord: 'https://discordapp.com/users/163300027618295808',
 }
 
